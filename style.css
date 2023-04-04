@@ -290,26 +290,6 @@ body{
   user-select: none;
 }
 
-.main_wave {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.main_wave svg {
-  position: relative;
-  display: block;
-  width: calc(144% + 1.3px);
-  height: 294px;
-}
-
-.main_wave .shape-fill {
-  fill: #181818;
-}
-
 body::-webkit-scrollbar {
   width: 0.5em;
 }
@@ -416,7 +396,7 @@ body::-webkit-scrollbar-track-piece {
 }
 
 .mainbanner{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/Background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Index/image/Background.jpg);
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -591,7 +571,6 @@ body::-webkit-scrollbar-track-piece {
   color: #fff;
   cursor: pointer;
   box-shadow: 16px 20px 17px 0 rgba(0,0,0,0.24);
-  transition: 0.35s;
   position: relative;
   overflow: hidden;
 }
